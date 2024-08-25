@@ -1,0 +1,650 @@
+Listing users and groups...
+Users:
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+_apt
+nobody
+systemd-network
+systemd-timesync
+dhcpcd
+messagebus
+syslog
+systemd-resolve
+uuidd
+usbmux
+tss
+systemd-oom
+kernoops
+whoopsie
+dnsmasq
+avahi
+tcpdump
+sssd
+speech-dispatcher
+cups-pk-helper
+fwupd-refresh
+saned
+geoclue
+cups-browsed
+hplip
+polkitd
+rtkit
+colord
+gnome-initial-setup
+gdm
+nm-openvpn
+gnome-remote-desktop
+shoeb-khan
+sshd
+Groups:
+root
+daemon
+bin
+sys
+adm
+tty
+disk
+lp
+mail
+news
+uucp
+man
+proxy
+kmem
+dialout
+fax
+voice
+cdrom
+floppy
+tape
+sudo
+audio
+dip
+www-data
+backup
+operator
+list
+irc
+src
+shadow
+utmp
+video
+sasl
+plugdev
+staff
+games
+users
+nogroup
+systemd-journal
+systemd-network
+crontab
+systemd-timesync
+input
+sgx
+kvm
+render
+messagebus
+syslog
+systemd-resolve
+uuidd
+_ssh
+tss
+ssl-cert
+systemd-oom
+bluetooth
+rdma
+whoopsie
+netdev
+avahi
+tcpdump
+sssd
+lpadmin
+fwupd-refresh
+scanner
+saned
+geoclue
+pipewire
+polkitd
+rtkit
+colord
+gdm
+nm-openvpn
+lxd
+gnome-remote-desktop
+gamemode
+gnome-initial-setup
+shoeb-khan
+Checking for users with UID 0 (root privileges)...
+root
+Checking for users without passwords...
+Scanning for world-writable files and directories...
+drwxrwxrwt 2 root root 4096 Mar 31 05:54 /var/lib/BrlAPI
+drwxrwxrwt 2 root whoopsie 4096 Apr 24 16:19 /var/crash
+drwxrwxrwt 14 root root 4096 Aug 25 18:25 /var/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-polkit.service-Hlv4qQ/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-systemd-logind.service-5bl3Tw/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-systemd-resolved.service-Xsq4sH/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 18:20 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-fwupd.service-y4ltgY/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-power-profiles-daemon.service-OWVzhJ/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-switcheroo-control.service-3xJKlf/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 18:25 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-systemd-timedated.service-0tXpYv/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-colord.service-H95lEg/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-systemd-oomd.service-OSvLvg/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-systemd-timesyncd.service-0NpgZX/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-ModemManager.service-F50xp7/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /var/tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-upower.service-F8twGr/tmp
+drwxrwsrwt 2 root whoopsie 4096 Apr 24 16:19 /var/metrics
+drwxrwxrwt 19 root root 4096 Aug 25 18:25 /tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-colord.service-cOyKUS/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-systemd-timesyncd.service-p4kLsA/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-upower.service-LZm1Bv/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-switcheroo-control.service-yJNkiF/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-systemd-logind.service-0Llmls/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/.font-unix
+drwxrwxrwt 2 root root 4096 Aug 25 18:25 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-systemd-timedated.service-gYGifl/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-systemd-oomd.service-naItiv/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-systemd-resolved.service-PsBLSV/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/.ICE-unix
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/.X11-unix
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-polkit.service-Rp1VH8/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-power-profiles-daemon.service-tR67hz/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/.XIM-unix
+drwxrwxrwt 2 root root 4096 Aug 25 18:20 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-fwupd.service-9SC2im/tmp
+drwxrwxrwt 4 root root 4096 Aug 25 18:20 /tmp/snap-private-tmp/snap.firmware-updater/tmp
+drwxrwxrwt 5 root root 4096 Aug 25 18:21 /tmp/snap-private-tmp/snap.firefox/tmp
+drwxrwxrwt 4 root root 4096 Aug 25 17:23 /tmp/snap-private-tmp/snap.snapd-desktop-integration/tmp
+drwxrwxrwt 2 root root 4096 Aug 25 17:23 /tmp/systemd-private-76327f2a82524e78b13c97ef29a804db-ModemManager.service-9GuD5T/tmp
+Checking for SUID and SGID bits...
+-rwsr-xr-- 1 root messagebus 34960 Apr  8 20:08 /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+-rwsr-xr-x 1 root root 342632 Aug  9 08:03 /usr/lib/openssh/ssh-keysign
+-rwsr-sr-x 1 root root 14488 Apr 12 14:40 /usr/lib/xorg/Xorg.wrap
+-rwsr-xr-x 1 root root 18736 Apr  3 23:56 /usr/lib/polkit-1/polkit-agent-helper-1
+-rwsr-xr-x 1 root root 154824 Jul 26 08:02 /usr/lib/snapd/snap-confine
+-rwsr-xr-x 1 root root 55680 Apr  9 19:32 /usr/bin/su
+-rwxr-sr-x 1 root crontab 39664 Mar 31 05:36 /usr/bin/crontab
+-rwsr-xr-x 1 root root 40664 Apr  9 12:31 /usr/bin/newgrp
+-rwsr-xr-x 1 root root 39296 Apr  8 21:27 /usr/bin/fusermount3
+-rwsr-xr-x 1 root root 44760 Apr  9 12:31 /usr/bin/chsh
+-rwxr-sr-x 1 root shadow 72184 Apr  9 12:31 /usr/bin/chage
+-rwsr-xr-x 1 root root 51584 Apr  9 19:32 /usr/bin/mount
+-rwsr-xr-x 1 root root 72792 Apr  9 12:31 /usr/bin/chfn
+-rwsr-xr-x 1 root root 277936 Apr  8 20:20 /usr/bin/sudo
+-rwsr-xr-x 1 root root 30952 Apr  3 23:56 /usr/bin/pkexec
+-rwsr-xr-x 1 root root 64152 Apr  9 12:31 /usr/bin/passwd
+-rwxr-sr-x 1 root shadow 27152 Apr  9 12:31 /usr/bin/expiry
+-rwsr-xr-x 1 root root 39296 Apr  9 19:32 /usr/bin/umount
+-rwxr-sr-x 1 root _ssh 309688 Aug  9 08:03 /usr/bin/ssh-agent
+-rwsr-xr-x 1 root root 76248 Apr  9 12:31 /usr/bin/gpasswd
+-rwxr-sr-x 1 root mail 22856 Apr  6 06:44 /usr/libexec/camel-lock-helper-1.2
+-rwxr-sr-x 1 root shadow 26944 Apr 11 00:49 /usr/sbin/pam_extrausers_chkpwd
+-rwxr-sr-x 1 root shadow 31040 Apr 11 00:49 /usr/sbin/unix_chkpwd
+-rwsr-xr-- 1 root dip 420416 Apr  3 23:26 /usr/sbin/pppd
+Listing running services...
+  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service       loaded active running Accounts Service
+  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack
+  colord.service                loaded active running Manage, Install and Generate Color Profiles
+  cron.service                  loaded active running Regular background program processing daemon
+  cups-browsed.service          loaded active running Make remote CUPS printers available locally
+  cups.service                  loaded active running CUPS Scheduler
+  dbus.service                  loaded active running D-Bus System Message Bus
+  fwupd.service                 loaded active running Firmware update daemon
+  gdm.service                   loaded active running GNOME Display Manager
+  gnome-remote-desktop.service  loaded active running GNOME Remote Desktop
+  kerneloops.service            loaded active running Tool to automatically collect and submit kernel crash signatures
+  ModemManager.service          loaded active running Modem Manager
+  NetworkManager.service        loaded active running Network Manager
+  nginx.service                 loaded active running A high performance web server and a reverse proxy server
+  packagekit.service            loaded active running PackageKit Daemon
+  polkit.service                loaded active running Authorization Manager
+  power-profiles-daemon.service loaded active running Power Profiles daemon
+  rsyslog.service               loaded active running System Logging Service
+  rtkit-daemon.service          loaded active running RealtimeKit Scheduling Policy Service
+  snapd.service                 loaded active running Snap Daemon
+  switcheroo-control.service    loaded active running Switcheroo Control Proxy service
+  systemd-journald.service      loaded active running Journal Service
+  systemd-logind.service        loaded active running User Login Management
+  systemd-oomd.service          loaded active running Userspace Out-Of-Memory (OOM) Killer
+  systemd-resolved.service      loaded active running Network Name Resolution
+  systemd-timedated.service     loaded active running Time & Date Service
+  systemd-timesyncd.service     loaded active running Network Time Synchronization
+  systemd-udevd.service         loaded active running Rule-based Manager for Device Events and Files
+  udisks2.service               loaded active running Disk Manager
+  unattended-upgrades.service   loaded active running Unattended Upgrades Shutdown
+  upower.service                loaded active running Daemon for power management
+  user@1000.service             loaded active running User Manager for UID 1000
+  wpa_supplicant.service        loaded active running WPA supplicant
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+33 loaded units listed.
+Checking for unnecessary services...
+  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service       loaded active running Accounts Service
+  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack
+  colord.service                loaded active running Manage, Install and Generate Color Profiles
+  cron.service                  loaded active running Regular background program processing daemon
+  cups-browsed.service          loaded active running Make remote CUPS printers available locally
+  cups.service                  loaded active running CUPS Scheduler
+  dbus.service                  loaded active running D-Bus System Message Bus
+  fwupd.service                 loaded active running Firmware update daemon
+  gdm.service                   loaded active running GNOME Display Manager
+  gnome-remote-desktop.service  loaded active running GNOME Remote Desktop
+  kerneloops.service            loaded active running Tool to automatically collect and submit kernel crash signatures
+  ModemManager.service          loaded active running Modem Manager
+  NetworkManager.service        loaded active running Network Manager
+  nginx.service                 loaded active running A high performance web server and a reverse proxy server
+  packagekit.service            loaded active running PackageKit Daemon
+  polkit.service                loaded active running Authorization Manager
+  power-profiles-daemon.service loaded active running Power Profiles daemon
+  rsyslog.service               loaded active running System Logging Service
+  rtkit-daemon.service          loaded active running RealtimeKit Scheduling Policy Service
+  snapd.service                 loaded active running Snap Daemon
+  switcheroo-control.service    loaded active running Switcheroo Control Proxy service
+  systemd-journald.service      loaded active running Journal Service
+  systemd-logind.service        loaded active running User Login Management
+  systemd-oomd.service          loaded active running Userspace Out-Of-Memory (OOM) Killer
+  systemd-resolved.service      loaded active running Network Name Resolution
+  systemd-timedated.service     loaded active running Time & Date Service
+  systemd-timesyncd.service     loaded active running Network Time Synchronization
+  systemd-udevd.service         loaded active running Rule-based Manager for Device Events and Files
+  udisks2.service               loaded active running Disk Manager
+  unattended-upgrades.service   loaded active running Unattended Upgrades Shutdown
+  upower.service                loaded active running Daemon for power management
+  user@1000.service             loaded active running User Manager for UID 1000
+  wpa_supplicant.service        loaded active running WPA supplicant
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+33 loaded units listed.
+Review the list above and disable any unnecessary services.
+Checking firewall status and rules...
+Status: inactive
+Checking network configurations...
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:0c:29:77:48:8e brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.52.128/24 brd 192.168.52.255 scope global dynamic noprefixroute ens33
+       valid_lft 1473sec preferred_lft 1473sec
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.54:53           0.0.0.0:*               LISTEN     
+tcp6       0      0 :::22                   :::*                    LISTEN     
+tcp6       0      0 :::80                   :::*                    LISTEN     
+udp        0      0 127.0.0.54:53           0.0.0.0:*                          
+udp        0      0 127.0.0.53:53           0.0.0.0:*                          
+udp        0      0 0.0.0.0:631             0.0.0.0:*                          
+udp        0      0 0.0.0.0:54466           0.0.0.0:*                          
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                          
+udp6       0      0 :::48040                :::*                               
+udp6       0      0 :::5353                 :::*                               
+Checking for security updates...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following upgrades have been deferred due to phasing:
+  gnome-text-editor language-pack-en language-pack-gnome-en-base
+  libpython3-stdlib libssl3t64 openssl python-apt-common python3 python3-apt
+  python3-minimal
+The following packages have been kept back:
+  language-pack-en-base language-pack-gnome-en
+The following packages will be upgraded:
+  apparmor apport apport-core-dump-handler apport-gtk cloud-init dbus dbus-bin
+  dbus-daemon dbus-session-bus-common dbus-system-bus-common dbus-user-session
+  dhcpcd-base dracut-install e2fsprogs e2fsprogs-l10n evolution-data-server
+  evolution-data-server-common gir1.2-gdesktopenums-3.0
+  gir1.2-javascriptcoregtk-4.1 gir1.2-javascriptcoregtk-6.0 gir1.2-mutter-14
+  gir1.2-webkit-6.0 gir1.2-webkit2-4.1 gnome-calculator gnome-initial-setup
+  gnome-online-accounts gnome-remote-desktop
+  gnome-shell-extension-appindicator
+  gnome-shell-extension-ubuntu-tiling-assistant gsettings-desktop-schemas
+  gstreamer1.0-pipewire initramfs-tools initramfs-tools-bin
+  initramfs-tools-core libapparmor1 libbz2-1.0 libc-bin libc-dev-bin
+  libc-devtools libc6 libc6-dbg libc6-dev libcamel-1.2-64t64 libcom-err2
+  libdbus-1-3 libdeflate0 libebackend-1.2-11t64 libebook-1.2-21t64
+  libebook-contacts-1.2-4t64 libecal-2.0-3 libedata-book-1.2-27t64
+  libedata-cal-2.0-2t64 libedataserver-1.2-27t64 libedataserverui-1.2-4t64
+  libegl-mesa0 libext2fs2t64 libfprint-2-2 libfprint-2-tod1 libgbm1
+  libgl1-mesa-dri libglapi-mesa libglx-mesa0 libgnutls30t64 libgoa-1.0-0b
+  libgoa-1.0-common libgoa-backend-1.0-2 libhogweed6t64 libicu74
+  libjavascriptcoregtk-4.1-0 libjavascriptcoregtk-6.0-1 liblz4-1 liblzma5
+  libmutter-14-0 libnautilus-extension4 libnetplan1 libnettle8t64
+  libnss-systemd libp11-kit0 libpam-modules libpam-modules-bin libpam-runtime
+  libpam-systemd libpam0g libpipewire-0.3-0t64 libpipewire-0.3-common
+  libpipewire-0.3-modules libsasl2-2 libsasl2-modules libsasl2-modules-db
+  libsasl2-modules-gssapi-mit libseccomp2 libspa-0.2-bluetooth
+  libspa-0.2-modules libss2 libsystemd-shared libsystemd0 libudev1
+  libwebkit2gtk-4.1-0 libwebkitgtk-6.0-4 libxatracker2 libzstd1 locales
+  logsave mesa-vulkan-drivers mutter-common mutter-common-bin nautilus
+  nautilus-data netplan-generator netplan.io p11-kit p11-kit-modules pipewire
+  pipewire-alsa pipewire-audio pipewire-bin pipewire-pulse python3-apport
+  python3-distupgrade python3-netplan python3-problem-report snapd systemd
+  systemd-dev systemd-oomd systemd-resolved systemd-sysv systemd-timesyncd
+  tzdata ubuntu-pro-client ubuntu-pro-client-l10n ubuntu-release-upgrader-core
+  ubuntu-release-upgrader-gtk ubuntu-settings udev vim-common vim-tiny
+  xdg-desktop-portal xdg-desktop-portal-gnome xkb-data xxd xz-utils zlib1g
+  zstd
+144 upgraded, 0 newly installed, 0 to remove and 12 not upgraded.
+Inst libc6-dbg [2.39-0ubuntu8.2] (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64]) []
+Inst libc-devtools [2.39-0ubuntu8.2] (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64]) []
+Inst libc6-dev [2.39-0ubuntu8.2] (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64]) []
+Inst libc-dev-bin [2.39-0ubuntu8.2] (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64]) []
+Inst libc6 [2.39-0ubuntu8.2] (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libc6 (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libc-bin [2.39-0ubuntu8.2] (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libc-bin (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Inst libpam0g [1.5.3-5ubuntu5] (1.5.3-5ubuntu5.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libpam0g (1.5.3-5ubuntu5.1 Ubuntu:24.04/noble-updates [amd64])
+Inst systemd-timesyncd [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64]) []
+Inst dbus-session-bus-common [1.14.10-4ubuntu4] (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [all]) []
+Inst libpam-runtime [1.5.3-5ubuntu5] (1.5.3-5ubuntu5.1 Ubuntu:24.04/noble-updates [all]) []
+Conf libpam-runtime (1.5.3-5ubuntu5.1 Ubuntu:24.04/noble-updates [all]) []
+Inst systemd-sysv [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libpam-systemd [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64]) []
+Inst dbus-user-session [1.14.10-4ubuntu4] (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libapparmor1 [4.0.0-beta3-0ubuntu3] (4.0.1really4.0.0-beta3-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst dbus-bin [1.14.10-4ubuntu4] (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [amd64]) [dbus-daemon:amd64 dbus:amd64 ]
+Inst dbus-system-bus-common [1.14.10-4ubuntu4] (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [all]) [dbus-daemon:amd64 dbus:amd64 ]
+Inst dbus [1.14.10-4ubuntu4] (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [amd64]) [dbus-daemon:amd64 ]
+Inst dbus-daemon [1.14.10-4ubuntu4] (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libdbus-1-3 [1.14.10-4ubuntu4] (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst systemd-resolved [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64]) []
+Inst systemd-oomd [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64]) []
+Inst liblz4-1 [1.9.4-1build1] (1.9.4-1build1.1 Ubuntu:24.04/noble-updates [amd64]) []
+Conf liblz4-1 (1.9.4-1build1.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst liblzma5 [5.6.1+really5.4.5-1] (5.6.1+really5.4.5-1build0.1 Ubuntu:24.04/noble-updates [amd64]) []
+Conf liblzma5 (5.6.1+really5.4.5-1build0.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libseccomp2 [2.5.5-1ubuntu3] (2.5.5-1ubuntu3.1 Ubuntu:24.04/noble-updates [amd64]) []
+Conf libseccomp2 (2.5.5-1ubuntu3.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libzstd1 [1.5.5+dfsg2-2build1] (1.5.5+dfsg2-2build1.1 Ubuntu:24.04/noble-updates [amd64]) []
+Conf libzstd1 (1.5.5+dfsg2-2build1.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst systemd-dev [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [all]) []
+Inst systemd [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64]) [libnss-systemd:amd64 ]
+Inst udev [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64]) [libnss-systemd:amd64 ]
+Inst libnss-systemd [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libsystemd-shared [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libudev1 [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64]) []
+Conf libudev1 (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libsystemd0 [255.4-1ubuntu8] (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64])
+Conf libsystemd0 (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64])
+Inst libpam-modules-bin [1.5.3-5ubuntu5] (1.5.3-5ubuntu5.1 Ubuntu:24.04/noble-updates [amd64]) [libpam-modules:amd64 on libpam-modules-bin:amd64] [libpam-modules:amd64 ]
+Conf libpam-modules-bin (1.5.3-5ubuntu5.1 Ubuntu:24.04/noble-updates [amd64]) [libpam-modules:amd64 ]
+Inst libpam-modules [1.5.3-5ubuntu5] (1.5.3-5ubuntu5.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libpam-modules (1.5.3-5ubuntu5.1 Ubuntu:24.04/noble-updates [amd64])
+Inst logsave [1.47.0-2.4~exp1ubuntu4] (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Inst initramfs-tools [0.142ubuntu25] (0.142ubuntu25.1 Ubuntu:24.04/noble-updates [all]) []
+Inst initramfs-tools-core [0.142ubuntu25] (0.142ubuntu25.1 Ubuntu:24.04/noble-updates [all]) []
+Inst e2fsprogs-l10n [1.47.0-2.4~exp1ubuntu4] (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [all]) []
+Inst libext2fs2t64 [1.47.0-2.4~exp1ubuntu4] (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64]) [e2fsprogs:amd64 on libext2fs2t64:amd64] [e2fsprogs:amd64 ]
+Conf libext2fs2t64 (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64]) [e2fsprogs:amd64 ]
+Inst e2fsprogs [1.47.0-2.4~exp1ubuntu4] (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst dhcpcd-base [1:10.0.6-1ubuntu3] (1:10.0.6-1ubuntu3.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst dracut-install [060+5-1ubuntu3] (060+5-1ubuntu3.2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst initramfs-tools-bin [0.142ubuntu25] (0.142ubuntu25.1 Ubuntu:24.04/noble-updates [amd64])
+Inst python3-problem-report [2.28.1-0ubuntu2] (2.28.1-0ubuntu3.1 Ubuntu:24.04/noble-updates [all])
+Inst python3-apport [2.28.1-0ubuntu2] (2.28.1-0ubuntu3.1 Ubuntu:24.04/noble-updates [all])
+Inst apport-core-dump-handler [2.28.1-0ubuntu2] (2.28.1-0ubuntu3.1 Ubuntu:24.04/noble-updates [all])
+Inst apport [2.28.1-0ubuntu2] (2.28.1-0ubuntu3.1 Ubuntu:24.04/noble-updates [all])
+Inst libbz2-1.0 [1.0.8-5.1] (1.0.8-5.1build0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libbz2-1.0 (1.0.8-5.1build0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst zlib1g [1:1.3.dfsg-3.1ubuntu2] (1:1.3.dfsg-3.1ubuntu2.1 Ubuntu:24.04/noble-updates [amd64])
+Conf zlib1g (1:1.3.dfsg-3.1ubuntu2.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libnettle8t64 [3.9.1-2.2build1] (3.9.1-2.2build1.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libnettle8t64 (3.9.1-2.2build1.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libhogweed6t64 [3.9.1-2.2build1] (3.9.1-2.2build1.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libhogweed6t64 (3.9.1-2.2build1.1 Ubuntu:24.04/noble-updates [amd64])
+Inst p11-kit-modules [0.25.3-4ubuntu2] (0.25.3-4ubuntu2.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libp11-kit0 [0.25.3-4ubuntu2] (0.25.3-4ubuntu2.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libp11-kit0 (0.25.3-4ubuntu2.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libgnutls30t64 [3.8.3-1.1ubuntu3.1] (3.8.3-1.1ubuntu3.2 Ubuntu:24.04/noble-updates [amd64])
+Conf libgnutls30t64 (3.8.3-1.1ubuntu3.2 Ubuntu:24.04/noble-updates [amd64])
+Inst libcom-err2 [1.47.0-2.4~exp1ubuntu4] (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libss2 [1.47.0-2.4~exp1ubuntu4] (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libicu74 [74.2-1ubuntu3] (74.2-1ubuntu3.1 Ubuntu:24.04/noble-updates [amd64])
+Inst python3-netplan [1.0-2ubuntu1.2] (1.0.1-1ubuntu2~24.04.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst netplan-generator [1.0-2ubuntu1.2] (1.0.1-1ubuntu2~24.04.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst netplan.io [1.0-2ubuntu1.2] (1.0.1-1ubuntu2~24.04.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libnetplan1 [1.0-2ubuntu1.2] (1.0.1-1ubuntu2~24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Inst locales [2.39-0ubuntu8.2] (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all])
+Inst tzdata [2024a-2ubuntu1] (2024a-3ubuntu1.1 Ubuntu:24.04/noble-updates [all])
+Inst ubuntu-pro-client-l10n [31.2.3] (32.3.1~24.04 Ubuntu:24.04/noble-updates [amd64]) []
+Inst ubuntu-pro-client [31.2.3] (32.3.1~24.04 Ubuntu:24.04/noble-updates [amd64])
+Inst vim-tiny [2:9.1.0016-1ubuntu7] (2:9.1.0016-1ubuntu7.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst vim-common [2:9.1.0016-1ubuntu7] (2:9.1.0016-1ubuntu7.1 Ubuntu:24.04/noble-updates [all])
+Inst xkb-data [2.41-2ubuntu1] (2.41-2ubuntu1.1 Ubuntu:24.04/noble-updates [all])
+Inst xxd [2:9.1.0016-1ubuntu7] (2:9.1.0016-1ubuntu7.1 Ubuntu:24.04/noble-updates [amd64])
+Inst apparmor [4.0.0-beta3-0ubuntu3] (4.0.1really4.0.0-beta3-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst ubuntu-release-upgrader-gtk [1:24.04.16] (1:24.04.19 Ubuntu:24.04/noble-updates [all]) []
+Inst ubuntu-release-upgrader-core [1:24.04.16] (1:24.04.19 Ubuntu:24.04/noble-updates [all]) []
+Inst gir1.2-webkit2-4.1 [2.44.2-0ubuntu0.24.04.1] (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst gir1.2-javascriptcoregtk-4.1 [2.44.2-0ubuntu0.24.04.1] (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libwebkit2gtk-4.1-0 [2.44.2-0ubuntu0.24.04.1] (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libjavascriptcoregtk-4.1-0 [2.44.2-0ubuntu0.24.04.1] (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libgl1-mesa-dri [24.0.5-1ubuntu1] (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libglx-mesa0 [24.0.5-1ubuntu1] (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libegl-mesa0 [24.0.5-1ubuntu1] (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libglapi-mesa [24.0.5-1ubuntu1] (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libgbm1 [24.0.5-1ubuntu1] (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst python3-distupgrade [1:24.04.16] (1:24.04.19 Ubuntu:24.04/noble-updates [all])
+Inst xz-utils [5.6.1+really5.4.5-1] (5.6.1+really5.4.5-1build0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst apport-gtk [2.28.1-0ubuntu2] (2.28.1-0ubuntu3.1 Ubuntu:24.04/noble-updates [all])
+Inst libgoa-1.0-common [3.50.0-4ubuntu2] (3.50.4-0ubuntu2 Ubuntu:24.04/noble-updates [all])
+Inst gnome-online-accounts [3.50.0-4ubuntu2] (3.50.4-0ubuntu2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst evolution-data-server [3.52.0-1build3] (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libgoa-1.0-0b [3.50.0-4ubuntu2] (3.50.4-0ubuntu2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libgoa-backend-1.0-2 [3.50.0-4ubuntu2] (3.50.4-0ubuntu2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libcamel-1.2-64t64 [3.52.0-1build3] (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst evolution-data-server-common [3.52.0-1build3] (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [all])
+Inst libedataserver-1.2-27t64 [3.52.0-1build3] (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst libebackend-1.2-11t64 [3.52.0-1build3] (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst libebook-contacts-1.2-4t64 [3.52.0-1build3] (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst libedata-book-1.2-27t64 [3.52.0-1build3] (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst libebook-1.2-21t64 [3.52.0-1build3] (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst libecal-2.0-3 [3.52.0-1build3] (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst libedata-cal-2.0-2t64 [3.52.0-1build3] (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst libedataserverui-1.2-4t64 [3.52.0-1build3] (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst gir1.2-gdesktopenums-3.0 [46.0-1ubuntu2] (46.1-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst gir1.2-webkit-6.0 [2.44.2-0ubuntu0.24.04.1] (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst gir1.2-javascriptcoregtk-6.0 [2.44.2-0ubuntu0.24.04.1] (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libwebkitgtk-6.0-4 [2.44.2-0ubuntu0.24.04.1] (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libjavascriptcoregtk-6.0-1 [2.44.2-0ubuntu0.24.04.1] (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64])
+Inst gsettings-desktop-schemas [46.0-1ubuntu2] (46.1-0ubuntu1 Ubuntu:24.04/noble-updates [all])
+Inst mutter-common [46.0-1ubuntu9] (46.2-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates [all])
+Inst gir1.2-mutter-14 [46.0-1ubuntu9] (46.2-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libmutter-14-0 [46.0-1ubuntu9] (46.2-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst mutter-common-bin [46.0-1ubuntu9] (46.2-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Inst pipewire-pulse [1.0.5-1] (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst pipewire-bin [1.0.5-1] (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64]) [pipewire:amd64 ]
+Inst pipewire-alsa [1.0.5-1] (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64]) [pipewire:amd64 ]
+Inst gstreamer1.0-pipewire [1.0.5-1] (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64]) [pipewire:amd64 ]
+Inst libpipewire-0.3-0t64 [1.0.5-1] (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64]) [pipewire:amd64 libpipewire-0.3-modules:amd64 ]
+Inst libspa-0.2-bluetooth [1.0.5-1] (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64]) [pipewire:amd64 libpipewire-0.3-modules:amd64 ]
+Inst libspa-0.2-modules [1.0.5-1] (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64]) [pipewire:amd64 libpipewire-0.3-modules:amd64 ]
+Inst pipewire [1.0.5-1] (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64]) [libpipewire-0.3-modules:amd64 ]
+Inst libpipewire-0.3-modules [1.0.5-1] (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst gnome-calculator [1:46.0-1ubuntu1] (1:46.1-1ubuntu1~24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Inst gnome-initial-setup [46.0-1ubuntu6] (46.2-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Inst gnome-remote-desktop [46.2-1~ubuntu24.04.2] (46.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Inst gnome-shell-extension-appindicator [57-2] (58-1 Ubuntu:24.04/noble-updates [all])
+Inst gnome-shell-extension-ubuntu-tiling-assistant [46-1ubuntu1] (46-1ubuntu1.1 Ubuntu:24.04/noble-updates [all])
+Inst libdeflate0 [1.19-1build1] (1.19-1build1.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libfprint-2-tod1 [1:1.94.7+tod1-0ubuntu4] (1:1.94.7+tod1-0ubuntu5~24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libfprint-2-2 [1:1.94.7+tod1-0ubuntu4] (1:1.94.7+tod1-0ubuntu5~24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Inst nautilus [1:46.0-0ubuntu2] (1:46.2-0ubuntu0.2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst nautilus-data [1:46.0-0ubuntu2] (1:46.2-0ubuntu0.2 Ubuntu:24.04/noble-updates [all]) []
+Inst xdg-desktop-portal [1.18.3-1ubuntu1] (1.18.4-1ubuntu2 Ubuntu:24.04/noble-updates [amd64]) []
+Inst xdg-desktop-portal-gnome [46.0-1build1] (46.2-0ubuntu1 Ubuntu:24.04/noble-updates [amd64]) []
+Inst libnautilus-extension4 [1:46.0-0ubuntu2] (1:46.2-0ubuntu0.2 Ubuntu:24.04/noble-updates [amd64])
+Inst libpipewire-0.3-common [1.0.5-1] (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [all])
+Inst libsasl2-modules-db [2.1.28+dfsg1-5ubuntu3] (2.1.28+dfsg1-5ubuntu3.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libsasl2-2 [2.1.28+dfsg1-5ubuntu3] (2.1.28+dfsg1-5ubuntu3.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libsasl2-modules [2.1.28+dfsg1-5ubuntu3] (2.1.28+dfsg1-5ubuntu3.1 Ubuntu:24.04/noble-updates [amd64]) [libsasl2-modules-gssapi-mit:amd64 ]
+Inst libsasl2-modules-gssapi-mit [2.1.28+dfsg1-5ubuntu3] (2.1.28+dfsg1-5ubuntu3.1 Ubuntu:24.04/noble-updates [amd64])
+Inst libxatracker2 [24.0.5-1ubuntu1] (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst mesa-vulkan-drivers [24.0.5-1ubuntu1] (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Inst pipewire-audio [1.0.5-1] (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [all])
+Inst snapd [2.63+24.04ubuntu0.1] (2.63.1+24.04 Ubuntu:24.04/noble-updates [amd64])
+Inst ubuntu-settings [24.04.3] (24.04.4 Ubuntu:24.04/noble-updates [all])
+Inst zstd [1.5.5+dfsg2-2build1] (1.5.5+dfsg2-2build1.1 Ubuntu:24.04/noble-updates [amd64])
+Inst cloud-init [24.1.3-0ubuntu3] (24.1.3-0ubuntu3.3 Ubuntu:24.04/noble-updates [all])
+Inst p11-kit [0.25.3-4ubuntu2] (0.25.3-4ubuntu2.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libc6-dbg (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libc-devtools (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libc6-dev (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf libc-dev-bin (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [amd64])
+Conf systemd-timesyncd (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64])
+Conf dbus-session-bus-common (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [all])
+Conf systemd-sysv (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64])
+Conf libpam-systemd (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64])
+Conf dbus-user-session (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libapparmor1 (4.0.1really4.0.0-beta3-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf dbus-bin (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Conf dbus-system-bus-common (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [all])
+Conf dbus (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Conf dbus-daemon (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libdbus-1-3 (1.14.10-4ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Conf systemd-resolved (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64])
+Conf systemd-oomd (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64])
+Conf systemd-dev (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [all])
+Conf systemd (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64])
+Conf udev (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64])
+Conf libnss-systemd (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64])
+Conf libsystemd-shared (255.4-1ubuntu8.4 Ubuntu:24.04/noble-updates [amd64])
+Conf logsave (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Conf initramfs-tools (0.142ubuntu25.1 Ubuntu:24.04/noble-updates [all])
+Conf initramfs-tools-core (0.142ubuntu25.1 Ubuntu:24.04/noble-updates [all])
+Conf e2fsprogs-l10n (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [all])
+Conf e2fsprogs (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Conf dhcpcd-base (1:10.0.6-1ubuntu3.1 Ubuntu:24.04/noble-updates [amd64])
+Conf dracut-install (060+5-1ubuntu3.2 Ubuntu:24.04/noble-updates [amd64])
+Conf initramfs-tools-bin (0.142ubuntu25.1 Ubuntu:24.04/noble-updates [amd64])
+Conf python3-problem-report (2.28.1-0ubuntu3.1 Ubuntu:24.04/noble-updates [all])
+Conf python3-apport (2.28.1-0ubuntu3.1 Ubuntu:24.04/noble-updates [all])
+Conf apport-core-dump-handler (2.28.1-0ubuntu3.1 Ubuntu:24.04/noble-updates [all])
+Conf apport (2.28.1-0ubuntu3.1 Ubuntu:24.04/noble-updates [all])
+Conf p11-kit-modules (0.25.3-4ubuntu2.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libcom-err2 (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libss2 (1.47.0-2.4~exp1ubuntu4.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libicu74 (74.2-1ubuntu3.1 Ubuntu:24.04/noble-updates [amd64])
+Conf python3-netplan (1.0.1-1ubuntu2~24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Conf netplan-generator (1.0.1-1ubuntu2~24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Conf netplan.io (1.0.1-1ubuntu2~24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libnetplan1 (1.0.1-1ubuntu2~24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Conf locales (2.39-0ubuntu8.3 Ubuntu:24.04/noble-updates, Ubuntu:24.04/noble-security [all])
+Conf tzdata (2024a-3ubuntu1.1 Ubuntu:24.04/noble-updates [all])
+Conf ubuntu-pro-client-l10n (32.3.1~24.04 Ubuntu:24.04/noble-updates [amd64])
+Conf ubuntu-pro-client (32.3.1~24.04 Ubuntu:24.04/noble-updates [amd64])
+Conf vim-tiny (2:9.1.0016-1ubuntu7.1 Ubuntu:24.04/noble-updates [amd64])
+Conf vim-common (2:9.1.0016-1ubuntu7.1 Ubuntu:24.04/noble-updates [all])
+Conf xkb-data (2.41-2ubuntu1.1 Ubuntu:24.04/noble-updates [all])
+Conf xxd (2:9.1.0016-1ubuntu7.1 Ubuntu:24.04/noble-updates [amd64])
+Conf apparmor (4.0.1really4.0.0-beta3-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf ubuntu-release-upgrader-gtk (1:24.04.19 Ubuntu:24.04/noble-updates [all])
+Conf ubuntu-release-upgrader-core (1:24.04.19 Ubuntu:24.04/noble-updates [all])
+Conf gir1.2-webkit2-4.1 (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64])
+Conf gir1.2-javascriptcoregtk-4.1 (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64])
+Conf libwebkit2gtk-4.1-0 (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64])
+Conf libjavascriptcoregtk-4.1-0 (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64])
+Conf libgl1-mesa-dri (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libglx-mesa0 (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libegl-mesa0 (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libglapi-mesa (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libgbm1 (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf python3-distupgrade (1:24.04.19 Ubuntu:24.04/noble-updates [all])
+Conf xz-utils (5.6.1+really5.4.5-1build0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf apport-gtk (2.28.1-0ubuntu3.1 Ubuntu:24.04/noble-updates [all])
+Conf libgoa-1.0-common (3.50.4-0ubuntu2 Ubuntu:24.04/noble-updates [all])
+Conf gnome-online-accounts (3.50.4-0ubuntu2 Ubuntu:24.04/noble-updates [amd64])
+Conf evolution-data-server (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libgoa-1.0-0b (3.50.4-0ubuntu2 Ubuntu:24.04/noble-updates [amd64])
+Conf libgoa-backend-1.0-2 (3.50.4-0ubuntu2 Ubuntu:24.04/noble-updates [amd64])
+Conf libcamel-1.2-64t64 (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf evolution-data-server-common (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [all])
+Conf libedataserver-1.2-27t64 (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libebackend-1.2-11t64 (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libebook-contacts-1.2-4t64 (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libedata-book-1.2-27t64 (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libebook-1.2-21t64 (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libecal-2.0-3 (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libedata-cal-2.0-2t64 (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libedataserverui-1.2-4t64 (3.52.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf gir1.2-gdesktopenums-3.0 (46.1-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf gir1.2-webkit-6.0 (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64])
+Conf gir1.2-javascriptcoregtk-6.0 (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64])
+Conf libwebkitgtk-6.0-4 (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64])
+Conf libjavascriptcoregtk-6.0-1 (2.44.2-0ubuntu0.24.04.2 Ubuntu:24.04/noble-updates [amd64])
+Conf gsettings-desktop-schemas (46.1-0ubuntu1 Ubuntu:24.04/noble-updates [all])
+Conf mutter-common (46.2-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates [all])
+Conf gir1.2-mutter-14 (46.2-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libmutter-14-0 (46.2-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Conf mutter-common-bin (46.2-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Conf pipewire-pulse (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf pipewire-bin (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf pipewire-alsa (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf gstreamer1.0-pipewire (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libpipewire-0.3-0t64 (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libspa-0.2-bluetooth (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libspa-0.2-modules (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf pipewire (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libpipewire-0.3-modules (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf gnome-calculator (1:46.1-1ubuntu1~24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Conf gnome-initial-setup (46.2-1ubuntu0.24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Conf gnome-remote-desktop (46.3-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf gnome-shell-extension-appindicator (58-1 Ubuntu:24.04/noble-updates [all])
+Conf gnome-shell-extension-ubuntu-tiling-assistant (46-1ubuntu1.1 Ubuntu:24.04/noble-updates [all])
+Conf libdeflate0 (1.19-1build1.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libfprint-2-tod1 (1:1.94.7+tod1-0ubuntu5~24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libfprint-2-2 (1:1.94.7+tod1-0ubuntu5~24.04.1 Ubuntu:24.04/noble-updates [amd64])
+Conf nautilus (1:46.2-0ubuntu0.2 Ubuntu:24.04/noble-updates [amd64])
+Conf nautilus-data (1:46.2-0ubuntu0.2 Ubuntu:24.04/noble-updates [all])
+Conf xdg-desktop-portal (1.18.4-1ubuntu2 Ubuntu:24.04/noble-updates [amd64])
+Conf xdg-desktop-portal-gnome (46.2-0ubuntu1 Ubuntu:24.04/noble-updates [amd64])
+Conf libnautilus-extension4 (1:46.2-0ubuntu0.2 Ubuntu:24.04/noble-updates [amd64])
+Conf libpipewire-0.3-common (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [all])
+Conf libsasl2-modules-db (2.1.28+dfsg1-5ubuntu3.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libsasl2-2 (2.1.28+dfsg1-5ubuntu3.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libsasl2-modules (2.1.28+dfsg1-5ubuntu3.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libsasl2-modules-gssapi-mit (2.1.28+dfsg1-5ubuntu3.1 Ubuntu:24.04/noble-updates [amd64])
+Conf libxatracker2 (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf mesa-vulkan-drivers (24.0.9-0ubuntu0.1 Ubuntu:24.04/noble-updates [amd64])
+Conf pipewire-audio (1.0.5-1ubuntu1 Ubuntu:24.04/noble-updates [all])
+Conf snapd (2.63.1+24.04 Ubuntu:24.04/noble-updates [amd64])
+Conf ubuntu-settings (24.04.4 Ubuntu:24.04/noble-updates [all])
+Conf zstd (1.5.5+dfsg2-2build1.1 Ubuntu:24.04/noble-updates [amd64])
+Conf cloud-init (24.1.3-0ubuntu3.3 Ubuntu:24.04/noble-updates [all])
+Conf p11-kit (0.25.3-4ubuntu2.1 Ubuntu:24.04/noble-updates [amd64])
+Checking logs for suspicious activity...
+2024-08-25T18:20:53.621062+05:30 shoeb-khan-VMware-Virtual-Platform dbus-daemon[681]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Performing server hardening steps...
+Securing SSH configuration...
+Configuring automatic updates...
+Checking permissions for /etc/ssh/sshd_config...
+Warning: /etc/ssh/sshd_config permissions are not set to 600.
+Current permissions: 644
+-----------------------------------
